@@ -6,9 +6,9 @@ COPY package.json /app
 
 RUN npm install
 
-COPY . /app
+COPY . .
 
-EXPOSE 80
+EXPOSE 3000
 
 CMD ["node", "server.js"]
 
